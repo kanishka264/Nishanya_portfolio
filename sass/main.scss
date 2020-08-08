@@ -97,6 +97,50 @@ main {
   border-radius: 5px;
   border-left: 7px solid $secondary-color;
 }
+// work/projects
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+  h3 {
+    margin-bottom: 0.4rem;
+  }
+
+  img {
+    width: 100%;
+
+    &:hover {
+      opacity: 0.5;
+      border: 3px solid $secondary-color;
+      @include easeOut;
+    }
+  }
+}
+
+.btn {
+  border-radius: 5px;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-bottom: 0.3rem;
+  &:hover {
+    background: $secondary-color;
+  }
+}
+.btn-dark {
+  @extend .btn;
+  background: black;
+  color: white;
+}
+.btn-light {
+  @extend .btn;
+  background: white;
+  color: black;
+}
+
+// footer
 .footer-bottom {
   background: darken($color: $primary-color, $amount: 5);
   color: white;
