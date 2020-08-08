@@ -53,6 +53,9 @@
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
+  .contact-info {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 // small screens
 @include mediaSm {
@@ -60,6 +63,9 @@
     margin-top: 10vh;
   }
   .projects {
+    grid-template-columns: 1fr;
+  }
+  .contact-info {
     grid-template-columns: 1fr;
   }
 }
