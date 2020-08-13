@@ -313,3 +313,34 @@ main {
     grid-template-columns: 1fr; }
   .contact-info {
     grid-template-columns: 1fr; } }
+
+.input {
+  border-radius: 5px;
+  border-color: #7e0e39;
+  outline: none; }
+
+.name-1,
+.email-1 {
+  margin-bottom: 10px; }
+  .name-1 label,
+  .email-1 label {
+    padding: 5px; }
+
+.email {
+  margin-bottom: 15px; }
+
+.btn-submit {
+  background: #7e0e39;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 38px;
+  margin-top: 15px;
+  margin-left: 20px;
+  border: 2px solid #fff;
+  font-weight: bold;
+  font-size: 18px; }
+  .btn-submit:hover {
+    transform: scale(0.98);
+    opacity: 0.6; }
